@@ -1,0 +1,117 @@
+{
+  "_disclaimer": "Educational reference compiled from TNAU Agritech Portal, ICAR-NBAIR, UC IPM Rice Guidelines, LSU AgCenter 2026 Rice Guide and CIBRC approved-uses list. Pesticide labels vary by country/state/crop. ALWAYS read the product label, follow local extension (KVK / agriculture officer) advice, wear PPE, respect PHI (pre-harvest interval), and prefer IPM (cultural + biological first). The author is not liable for misuse.",
+  "_sources": [
+    "TNAU Agritech Portal - Crop Protection (Rice, Mustard, Tomato, Maize sections)",
+    "CIBRC Approved uses of registered insecticides (crop-wise PDF)",
+    "UC IPM Pest Management Guidelines - Rice: Armyworms",
+    "LSU AgCenter 2026 Field Crops Insect Pest Management Guide - Rice",
+    "ICAR-NBAIR insect pest database (Athalia sawfly)"
+  ],
+  "aphids": {
+    "common_name": "Aphids (Mustard aphid Lipaphis erysimi / Cotton aphid Aphis gossypii)",
+    "damage": "Nymphs+adults suck sap from leaves/buds/pods; leaf curling, stunting, sooty mould on honeydew; vector of viruses. ETL ~20 aphids / 2.5 cm shoot.",
+    "ipm_cultural": ["Early sowing (mustard before 20 Oct escapes peak)", "Destroy initial infested shoots", "Yellow sticky traps for monitoring", "Avoid excess nitrogen"],
+    "biological": ["Conserve ladybird beetles (Coccinella septempunctata), lacewing Chrysoperla carnea, syrphid flies", "Parasitoid Diaeretiella rapae; fungi Verticillium lecanii"],
+    "chemical": [
+      {"product": "Dimethoate 30 EC", "dose": "500-660 ml/ha in 500 L water", "note": "TNAU mustard recommendation"},
+      {"product": "Oxydemeton-methyl 25 EC (Metasystox)", "dose": "625-1000 ml/ha", "note": "TNAU mustard recommendation"},
+      {"product": "Imidacloprid 17.8 SL", "dose": "100-125 ml/ha", "note": "Systemic neonicotinoid; do NOT spray at flowering/bee activity"},
+      {"product": "Azadirachtin 0.03% / Neem oil 3%", "dose": "1000 ml/ha (azadirachtin) or 15 L/ha neem oil", "note": "Low-toxicity first choice"}
+    ]
+  },
+  "armyworm": {
+    "common_name": "Armyworm (True armyworm Mythimna unipuncta / Fall armyworm Spodoptera frugiperda)",
+    "damage": "Larvae chew angular pieces off leaves; severe defoliation; late-season larvae cut panicle branches causing white blanked panicles. Treat when ~1 larva per 2 plants or ~25% defoliation with larvae present.",
+    "ipm_cultural": ["Early weed control in/around field (weedy fields harbour more larvae)", "Flood young rice briefly to drown larvae (if crop stage allows)", "Pheromone traps for moth monitoring"],
+    "biological": ["Conserve parasitoid wasps Hyposoter exiguae, Apanteles militaris; predators & pathogens", "Bacillus thuringiensis ssp. kurstaki (Bt) - 50-60% mortality, organically acceptable"],
+    "chemical": [
+      {"product": "Bacillus thuringiensis (Bt) formulations", "dose": "As per label (e.g. 2 g/L)", "note": "First chemical-equivalent choice; LSU/UC IPM"},
+      {"product": "Chlorantraniliprole 18.5 SC (Coragen)", "dose": "~150 ml/ha", "note": "Effective on Spodoptera; seed-treatment also proven (Villegas et al. 2019)"},
+      {"product": "Emamectin benzoate 5 SG", "dose": "220 g/ha", "note": "TNAU lepidoptera recommendation"},
+      {"product": "Methoxyfenozide (Intrepid) / Diflubenzuron (Dimilin)", "dose": "As per Section-18/local label", "note": "UC IPM rice; Dimilin has 80-day PHI - not for heading stage"}
+    ]
+  },
+  "beetle": {
+    "common_name": "Beetles (Flea beetle / Leaf beetle / Blister beetle complex)",
+    "damage": "Adults chew shot-holes in leaves; grubs may damage roots; pod/flower feeding reduces yield.",
+    "ipm_cultural": ["Hand-pick adults in small plots; light traps @1/ha", "Deep summer ploughing to expose grubs", "Crop rotation; remove crop debris"],
+    "biological": ["Neem oil 2 ml/L spray", "Conserve ground beetles, spiders; entomopathogenic fungi (Beauveria bassiana)"],
+    "chemical": [
+      {"product": "Dimethoate 30 EC", "dose": "660 ml/ha", "note": "EPA/CIBRC label for bean/corn leaf beetles, fleahoppers"},
+      {"product": "Chlorpyrifos 20 EC", "dose": "1250 ml/ha", "note": "TNAU general chewing-pest dose; check local ban status"},
+      {"product": "Imidacloprid 70 WG (seed treatment) or 17.8 SL", "dose": "Seed treatment as per label / 100 ml/ha foliar", "note": "Good for flea beetle early season"},
+      {"product": "Carbaryl 50 WP (poison bait / spray)", "dose": "1.25 kg + rice bran 12.5 kg + jaggery/ha as bait, or 2 g/L spray", "note": "TNAU bait recipe"}
+    ]
+  },
+  "bollworm": {
+    "common_name": "Bollworm / Fruit borer (Helicoverpa armigera)",
+    "damage": "Young larvae feed on foliage; older larvae bore circular holes into bolls/fruits, eat inner content; single larva damages many fruits.",
+    "ipm_cultural": ["Pheromone traps (Helilure) 12/ha; destroy damaged fruits/larvae", "Marigold trap crop (40-day marigold + 25-day tomato 1:16)", "Rogue spacing; avoid synthetic pyrethroid overuse"],
+    "biological": ["Release Trichogramma pretiosum @1 lakh/ha weekly from flowering", "Spray HaNPV 1.5x10^12 POBs/ha (0.43% AS @3 ml/L)", "Bt 2 g/L in evening hours"],
+    "chemical": [
+      {"product": "Chlorantraniliprole 18.5 SC", "dose": "150 ml/ha (3 ml/10 L)", "note": "TNAU tomato/cotton"},
+      {"product": "Indoxacarb 14.5 SC", "dose": "8 ml/10 L (~400-500 ml/ha)", "note": "TNAU fruit borer"},
+      {"product": "Flubendiamide 39.35 SC", "dose": "2 ml/10 L", "note": "TNAU fruit borer"},
+      {"product": "Spinosad 45 SC", "dose": "125-162 ml/ha", "note": "TNAU pod-borer; softer on beneficials"},
+      {"product": "Azadirachtin 1% EC (10000 ppm)", "dose": "2 ml/L", "note": "Botanical option"}
+    ]
+  },
+  "grasshopper": {
+    "common_name": "Grasshopper (Rice grasshopper Hieroglyphus / Oxya spp.)",
+    "damage": "Nymphs+adults chew leaf margins; heavy populations defoliate nursery/vegetative rice. Sporadic pest - no routine spray needed.",
+    "ipm_cultural": ["Clean bunds/weeds; sweep-net survey; conserve birds (predatory)", "Dust/sweep small infestations; early planting reduces pressure"],
+    "biological": ["Conserve spiders, birds; Metarhizium anisopliae where available"],
+    "chemical": [
+      {"product": "Carbaryl 10 D (dust)", "dose": "25 kg/ha", "note": "TNAU rice hopper dust dose"},
+      {"product": "Malathion 50 EC", "dose": "750-1500 ml/ha in 500-1000 L", "note": "CIBRC grasshopper dose"},
+      {"product": "Chlorpyrifos 20 EC", "dose": "1250 ml/ha", "note": "General rice chewing pest; check local restrictions"}
+    ]
+  },
+  "mites": {
+    "common_name": "Mites (Two-spotted spider mite Tetranychus urticae / Red spider mite)",
+    "damage": "Suck cell sap -> stippling, bronzing, webbing; severe = leaf dry-up. Flare after pyrethroid sprays (natural-enemy kill).",
+    "ipm_cultural": ["Avoid repeated synthetic pyrethroids (cause resurgence)", "Adequate irrigation (dust/drought favours mites); high-volume coverage spray to leaf undersides"],
+    "biological": ["Conserve predatory mites (Phytoseiulus persimilis), ladybirds, lacewings", "Neem oil 3% 15 L/ha"],
+    "chemical": [
+      {"product": "Fenazaquin 10 EC", "dose": "400 ml in 1000 L/ha (40 g a.i./ha)", "note": "CIBRC/TNAU red & two-spotted mite"},
+      {"product": "Spiromesifen 22.9 SC", "dose": "400-500 ml/ha", "note": "CIBRC mite growth - good on eggs+n juveniles"},
+      {"product": "Abamectin (Vertimec) 1.9 EC", "dose": "400-500 ml/ha", "note": "Translaminar; rotate MOA"},
+      {"product": "Dimethoate 30 EC", "dose": "660 ml-1 L/ha", "note": "OP miticide; toxic to bees/beneficials - last resort"}
+    ]
+  },
+  "mosquito": {
+    "common_name": "Mosquito / Gall-midge group (field mosquitoes + Rice gall midge Orseolia oryzae shown as 'mosquito' class)",
+    "damage": "Gall midge maggot causes onion-leaf/silver-shoot gall, no panicle. Field mosquitoes are nuisance/vector, breed in stagnant field water.",
+    "ipm_cultural": ["Drain/intermittent irrigation to break breeding; level field; remove stagnant pools", "Early planting; resistant varieties for gall midge where available"],
+    "biological": ["Bti (Bacillus thuringiensis israelensis) for mosquito larvae in water", "Conserve dragonflies, spiders, parasitoid Platygaster oryzae (gall midge)"],
+    "chemical": [
+      {"product": "Fipronil 0.3 GR", "dose": "16.6-25 kg/ha", "note": "TNAU rice gall-midge/planthopper granular"},
+      {"product": "Carbofuran 3 CG", "dose": "25-33 kg/ha", "note": "Classic gall-midge systemic (check local ban - restricted in many states)"},
+      {"product": "Chlorpyrifos 20 EC", "dose": "1250 ml/ha", "note": "Foliar for gall midge adults"},
+      {"product": "Mosquito adult control: pyrethroid fogging only around dwellings, NOT in crop", "dose": "As per municipal label", "note": "Do not contaminate crop/water"}
+    ]
+  },
+  "sawfly": {
+    "common_name": "Mustard sawfly (Athalia lugens / A. proxima)",
+    "damage": "Dark green-black larvae defoliate from margins; seedling-stage attack 3-38% loss; skeletonised leaves.",
+    "ipm_cultural": ["Early sowing (before 20 Oct); hand-pick larvae; flood/rake soil to kill pupae", "Monitor with sweep nets at seedling stage"],
+    "biological": ["Conserve parasitoids Perilissus, ichneumonids; birds feed on larvae", "Neem seed kernel extract 5% as deterrent"],
+    "chemical": [
+      {"product": "Dimethoate 30 EC", "dose": "660 ml/ha", "note": "TNAU/ICAR sawfly standard"},
+      {"product": "Malathion 50 EC", "dose": "750 ml a.i./ha (~1500 ml product/ha)", "note": "CIBRC sawfly/pod-borer"},
+      {"product": "Chlorpyrifos 20 EC", "dose": "1250 ml/ha", "note": "Alternate MOA for resistance management"}
+    ]
+  },
+  "stem_borer": {
+    "common_name": "Stem borer (Yellow stem borer Scirpophaga incertulas / Spotted borer Chilo partellus)",
+    "damage": "Larvae bore stem -> 'dead heart' (vegetative) and 'white ear' (reproductive). Shot-holes in unfolded leaves, bore holes/tunnelling. ETL: 10% dead hearts or 2 egg masses/m2.",
+    "ipm_cultural": ["Clip seedling leaf-tips before transplanting; collect+destroy egg masses", "Remove stubble / reduce cutting height; early planting; light traps"],
+    "biological": ["Release Trichogramma japonicum (rice) / T. chilonis (maize) @250,000/ha thrice weekly", "Neem seed kernel extract (NSKE) 5% spray"],
+    "chemical": [
+      {"product": "Chlorantraniliprole 18.5 SC", "dose": "150 ml/ha foliar", "note": "TNAU maize/rice borer; also 0.4 G @10 kg/ha or seed treatment Dermacor X-100"},
+      {"product": "Cartap hydrochloride 4 G", "dose": "25 kg/ha", "note": "Classic rice stem-borer granular"},
+      {"product": "Fipronil 5 SC", "dose": "1000-1500 ml/ha", "note": "TNAU rice BPH/borer list"},
+      {"product": "Dimethoate 30 EC", "dose": "660 ml/ha", "note": "TNAU maize Chilo when >10% infestation"}
+    ]
+  }
+}
